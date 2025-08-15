@@ -1,0 +1,47 @@
+.container {
+  width: 70%;
+  height: 100vh;
+  text-align: center;
+  margin: auto;
+}
+
+.dice-container {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.player {
+  margin: 10% 20%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: 'croissant one', serif;
+  font-weight: 400;
+  color: #393e46;
+}
+h2 {
+  font-size: 2rem;
+  font-family: 'croissant one', serif;
+  font-weight: 300;
+  color: #393e46;
+}
+
+.btn {
+  border: none;
+  border-radius: 10%;
+  padding: 15px 30px;
+  margin: 20px;
+  font-family: 'croissant one', serif;
+  font-size: 1.5rem;
+  font-weight: 200;
+  background-color: #4ecca3;
+  color: #393e46;
+  cursor: pointer;
+}
+
+body {
+  background-image: url('/images/Background.jpg');
+  background-size: cover;
+}
